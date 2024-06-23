@@ -8,6 +8,7 @@ fetch("./js/productos.json")
         cargarProductos(productos);
     })
     
+
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categorias");
 const tituloPrincipal = document.querySelector("#titulo-principal");
